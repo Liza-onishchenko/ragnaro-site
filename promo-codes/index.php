@@ -40,7 +40,7 @@ include '../header.php';
         </div>
     </section>
 
-    <!-- Секція 2: Фішки -->
+    <!-- Секція 2 -->
     <section class="relative w-full bg-cover bg-center shadow-2xl border-t border-zinc-900/60" style="background-image: url('/img/coins.webp');">
         <div class="absolute inset-0 bg-gradient-to-b from-black/20 via-black/40 to-zinc-950 z-0 pointer-events-none"></div>
         <div class="relative z-10 w-full px-4 lg:px-12 xl:px-24 max-w-[1600px] mx-auto pt-14 pb-20 flex flex-col gap-12">

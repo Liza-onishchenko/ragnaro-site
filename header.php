@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ragnaro Casino Sverige — Officiell Webbplats</title>
     <link rel="icon" type="image/png" href="/img/lightning.png">
-    <!-- Підключення Tailwind -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -36,6 +35,7 @@
         .nav-link:hover::after { transform: scaleX(1); }
     </style>
 </head>
+
 <body class="bg-ragDark text-gray-200 font-sans min-h-screen flex flex-col">
 
     <header class="bg-black border-b border-ragAmber sticky top-0 z-40 backdrop-blur-md w-full">
@@ -49,7 +49,7 @@
                 </span>
             </a>
            
-            <!-- Навігація ПК -->
+            <!-- Навігація для пк -->
             <nav class="hidden lg:flex items-center gap-8 text-sm uppercase font-extrabold tracking-wider">
                 <a href="/" class="nav-link relative text-white hover:text-ragAmber transition-colors">Hem</a>
                 <a href="/logga in/" class="nav-link relative text-white hover:text-ragAmber transition-colors">Logga In</a>

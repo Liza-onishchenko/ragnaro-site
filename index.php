@@ -3,16 +3,14 @@ include 'config.php';
 include 'header.php'; 
 ?>
 
-<!-- 1. МАСИВНИЙ БАНЕР З БОНУСОМ (Hero Section) -->
+<!-- Банер з бонусом -->
+ <main>
 <section class="relative bg-black border-b border-zinc-950 overflow-hidden min-h-[480px] md:min-h-[550px] flex items-center w-full">
     
-    <!-- АДАПТИВНЕ ФОТО -->
     <div class="absolute inset-0 bg-cover bg-[75%_center] sm:bg-[85%_center] md:bg-right-center z-0" style="background-image: url('/img/hero-bg.webp');"></div>
-    
-    <!-- РОЗУМНЕ ЗАТЕМНЕННЯ -->
+  
     <div class="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-black/20 md:bg-gradient-to-r md:from-black/80 md:via-black/30 md:to-transparent z-10 pointer-events-none"></div>
     
-    <!-- КОНТЕНТ БАНЕРА -->
     <div class="relative w-full px-4 lg:px-12 xl:px-24 z-20 pt-16 pb-8 md:py-16 flex flex-col items-start text-left space-y-5 md:space-y-6">
         
         <div class="flex items-center gap-2 text-zinc-300 text-[11px] font-black tracking-widest uppercase drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">
@@ -41,10 +39,9 @@ include 'header.php';
     </div>
 </section>
 
-<!-- КОНТЕНТНИЙ БЛОК: py-6 на мобільних прибирає величезну діру, а max-w-[1600px] розширює межі під шапку -->
 <div class="w-full px-4 lg:px-12 xl:px-24 max-w-[1600px] mx-auto py-6 md:py-16 space-y-12 md:space-y-20">
 
-    <!-- 2. БЛОК "OM RAGNARO" (Компактний відступ для мобілок) -->
+    <!--  Om Ragnaro Casino  -->
     <section id="om-ragnaro" class="grid md:grid-cols-12 gap-6 md:gap-8 items-center pt-2 md:pt-0">
         <div class="md:col-span-7 bg-gradient-to-b from-ragCard to-zinc-950 border border-ragAmber/40 rounded-2xl p-5 md:p-8 space-y-4 md:space-y-6 shadow-2xl shadow-ragAmber/5">
             <h2 class="text-xl md:text-3xl font-black text-ragAmber uppercase tracking-tight italic border-l-4 border-ragAmber pl-4">
@@ -67,7 +64,6 @@ include 'header.php';
         </div>
     </section>
 
-    <!-- 3. ІЛЮЗОРНА ВІТРИНА СЛОТІВ (РОЗТЯГНУТО НА ВЕСЬ БЛОК — КАРТИНКИ СТАЛИ БІЛЬШИМИ!) -->
     <section class="space-y-6 w-full">
         <div class="text-center space-y-2 border-b border-zinc-900 pb-6 relative">
             <h3 class="text-xl md:text-2xl font-black text-white uppercase tracking-wider italic flex items-center justify-center gap-3">
@@ -78,12 +74,10 @@ include 'header.php';
             <p class="text-xs text-zinc-500 font-bold uppercase tracking-widest">Utforska över 2 000+ premiumnivå slots</p>
         </div>
         
-        <!-- Сітка тепер заповнює 100% ширини контейнера, карти стали набагато ширшими та цікавішими -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
             
-            <!-- Слот 1: Book of Dead -->
-            <div class="bg-ragCard border border-zinc-900 rounded-xl p-4 text-center space-y-4 hover:border-ragAmber/40 transition-all duration-300 group shadow-lg shadow-ragAmber/5 hover:shadow-[0_15px_40px_rgba(255,153,0,0.2)] flex flex-col justify-between w-full">
-                <!-- Контейнер розширився і дає максимум простору для деталізації прев'ю -->
+            <!-- Слот 1 -->
+            <div class="bg-ragCard border border-zinc-900 rounded-xl p-4 text-center space-y-4 hover:border-ragAmber/40 transition-all duration-300 group shadow-lg shadow-ragAmber/5 hover:shadow-[0_15px_40px_rgba(255,153,0,0.2)] flex flex-col justify-between w-full">        
                 <div class="bg-zinc-950 h-52 md:h-72 rounded-lg flex items-center justify-center group-hover:scale-[1.01] transition-transform duration-300 shadow-inner overflow-hidden relative w-full">
                     <img src="/img/book-of-dead.jpg" alt="Book of Dead" class="w-full h-full object-contain p-2 z-10 relative">
                     <img src="/img/book-of-dead.jpg" alt="" class="w-full h-full object-cover absolute inset-0 opacity-25 blur-sm scale-110 z-0">
@@ -97,7 +91,7 @@ include 'header.php';
                 </a>
             </div>
 
-            <!-- Слот 2: Starburst -->
+            <!-- Слот 2 -->
             <div class="bg-ragCard border border-zinc-900 rounded-xl p-4 text-center space-y-4 hover:border-ragAmber/40 transition-all duration-300 group shadow-lg shadow-ragAmber/5 hover:shadow-[0_15px_40px_rgba(255,153,0,0.2)] flex flex-col justify-between w-full">
                 <div class="bg-zinc-950 h-52 md:h-72 rounded-lg flex items-center justify-center group-hover:scale-[1.01] transition-transform duration-300 shadow-inner overflow-hidden relative w-full">
                     <img src="/img/starburst.jpg" alt="Starburst" class="w-full h-full object-contain p-2 z-10 relative">
@@ -112,7 +106,7 @@ include 'header.php';
                 </a>
             </div>
 
-            <!-- Слот 3: Thunderstruck II -->
+            <!-- Слот 3 -->
             <div class="bg-ragCard border border-zinc-900 rounded-xl p-4 text-center space-y-4 hover:border-ragAmber/40 transition-all duration-300 group shadow-lg shadow-ragAmber/5 hover:shadow-[0_15px_40px_rgba(255,153,0,0.2)] flex flex-col justify-between w-full">
                 <div class="bg-zinc-950 h-52 md:h-72 rounded-lg flex items-center justify-center group-hover:scale-[1.01] transition-transform duration-300 shadow-inner overflow-hidden relative w-full">
                     <img src="/img/thunderstruck.jpg" alt="Thunderstruck II" class="w-full h-full object-contain p-2 z-10 relative">
@@ -127,7 +121,7 @@ include 'header.php';
                 </a>
             </div>
 
-            <!-- Слот 4: Wolf Gold -->
+            <!-- Слот 4 -->
             <div class="bg-ragCard border border-zinc-900 rounded-xl p-4 text-center space-y-4 hover:border-ragAmber/40 transition-all duration-300 group shadow-lg shadow-ragAmber/5 hover:shadow-[0_15px_40px_rgba(255,153,0,0.2)] flex flex-col justify-between w-full">
                 <div class="bg-zinc-950 h-52 md:h-72 rounded-lg flex items-center justify-center group-hover:scale-[1.01] transition-transform duration-300 shadow-inner overflow-hidden relative w-full">
                     <img src="/img/wolf-gold.png" alt="Wolf Gold" class="w-full h-full object-contain p-2 z-10 relative">
@@ -143,10 +137,9 @@ include 'header.php';
             </div>
         </div>
     </section>
-</div> <!-- Закриваємо попередній загальний контейнер, щоб секція FAQ розійшлася на весь екран -->
+</div> 
 
-<!-- 4. FAQ БЛОК: Твій стиль, але чистий код -->
-<!-- 4. FAQ БЛОК: Оптимізований код -->
+<!-- FAQ блок -->
 <section class="relative bg-black border-t border-b border-zinc-950 min-h-[500px] flex items-center w-full mt-16 py-16">
     <div class="absolute inset-0 bg-cover bg-center opacity-60 pointer-events-none" style="background-image: url('/img/faq-bg.webp');"></div>
     <div class="absolute inset-0 bg-gradient-to-b from-black/60 via-transparent to-black/60 pointer-events-none"></div>
@@ -176,6 +169,7 @@ include 'header.php';
         </div>
     </div>
 </section>
+</main>
 
 <?php 
 include 'footer.php'; 

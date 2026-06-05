@@ -10,7 +10,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
     let currentMode = 'bankid';
 
-    // Константи для текстів (порядок і зручність)
     const MESSAGES = {
         INVALID_PN_CHARS: "⚠️ Personnummer kan endast innehålla siffror.",
         INVALID_MOBILE_PREFIX: "⚠️ Mobilnummer måste börja med +46",
